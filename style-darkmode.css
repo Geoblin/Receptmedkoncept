@@ -1,0 +1,213 @@
+:root{
+    --main-orange: #BC9B24;
+    --main-grey: #C4C4C4;
+    --main-background: #0A253B;
+}
+*{
+    Margin:0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: var(--main-background);
+}
+section{
+    height: 100vh;
+}
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: var(--main-orange);
+    text-decoration: none;
+    font-family: Sacramento;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 93px;
+}
+a{
+    text-decoration: none;
+}
+.Searchcontainer{
+    text-align: center;
+}
+.Searchcontainer input{
+    width: 25rem;
+    height: 4rem;
+    background: var(--main-grey);
+    border-radius: 10px;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+.Searchcontainer h3{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+}
+.Searchcontainer_recept{
+    text-align: center;
+}
+.Searchcontainer_recept input{
+    width: 20rem;
+    height: 3rem;
+    background: var(--main-grey);
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+
+}
+.Searchcontainer_recept h3{
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+}
+.Searchcontainer a{
+    background: var(--main-orange);
+    border-radius: 10px;
+    width: 8%;
+    height: 3rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 3rem;
+    color: black;
+    text-decoration: none;
+}
+.Searchcontainer a:hover{
+    background-color: #856d19;
+}
+/*
+.Searchcontainer button:nth-of-type(1){
+    left: 25%;
+}
+.Searchcontainer button:nth-of-type(2){
+    left: 35%;
+}
+.Searchcontainer button:nth-of-type(3){
+    left: 45%;
+}
+.Searchcontainer button:nth-of-type(4){
+    left: 55%;
+}
+.Searchcontainer button:nth-of-type(5){
+    left: 65%;
+}
+*/
+.vf{
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: Sacramento;
+}
+hr{
+    color: white;
+    margin-top: 15rem;
+}
+.card {
+    width: 18%;
+    display: inline-flex;
+    margin-left: 11%;
+    padding: 0.5%;
+    border-radius: 5px;
+    background-color: var(--main-orange);
+
+}
+.card:hover{
+    background-color: #856d19;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+.card img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+}
+.container {
+    padding: 2px 16px;
+}
+.card h4{
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+}
+h2{
+    color: white;
+    font-size: 4rem;
+}
+.gridbox{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    padding-left: 15rem;
+    grid-column-gap: 15rem;
+}
+.receptcontainer h2{
+    text-align: center;
+}
+.receptcontainer p{
+    color: white;
+    font-size: 150%;
+    padding-top: 5rem;
+}
+.receptcontainer img{
+    width: 50vh;
+    border-radius: 10px;
+}
+.receptcontainer ul{
+    color: black;
+    list-style-type: none;
+    width: 20%;
+    border-radius: 10px;
+}
+.receptcontainer li{
+    border-radius: 10px;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 50vh;
+    background-color: var(--main-grey);
+}
+.receptcontainer li:hover{
+    background-color: var(--main-orange);
+}
+.receptcontainer h4{
+    font-size: 4rem;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: Sacramento;
+}
+footer{
+    padding: 1rem;
+    color:#4b4c4d;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+footer .social{
+    text-align:end;
+}
+footer .social > a {
+    font-size:30px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    background-color: #ccc;
+    margin:0 0.6rem;
+    color:inherit;
+}
+footer .social a:hover{
+    background-color: var(--main-orange);
+    border: 1px solid var(--main-orange);
+}
